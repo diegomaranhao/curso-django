@@ -12,6 +12,7 @@ codecov = "*"
 django = "*"
 gunicorn = "*"
 pytest-django = "*"
+python-decouple = "*"
 
 [requires]
 python_version = "3.8"
