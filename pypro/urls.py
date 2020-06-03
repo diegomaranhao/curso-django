@@ -20,7 +20,7 @@ from django.urls import path, include
 from pypro.base.views import home
 
 urlpatterns = [
-    path('', home),
+    path('', home, name='home'),
     path('admin/', admin.site.urls),
 ]
 
