@@ -17,10 +17,8 @@ from django.conf import settings
 from django.contrib import admin
 from django.urls import path, include
 
-from pypro.base.views import home
-
 urlpatterns = [
-    path('', home, name='home'),
+    path('', include('pypro.base.urls')),
     path('admin/', admin.site.urls),
 ]
 
