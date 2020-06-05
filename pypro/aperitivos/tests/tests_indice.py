@@ -23,7 +23,3 @@ def teste_status_code(resp):
 )
 def test_video_title(resp, titulo):
     assert_contains(resp, titulo)
-#
-#
-# def test_conteudo_video(resp):
-#     assert_contains(resp, '<iframe src="https://player.vimeo.com/video/425991579"')
