@@ -1,0 +1,23 @@
+{% extends 'base/base.html' %}
+{% load static %}
+{% block description %}Página com a lista de video{% endblock %}
+{% block title %}PythonPro - Aperitivos{% endblock %}
+{% block body %}
+
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                <h1>Lista de vídeos de aperitivo</h1>
+                    <ol>
+                        {% for video in videos %}
+                            <li>{{ video.titulo | default:'Video sem titulo'}}</li>
+                        {% empty %}
+                            <li>Nenhum vídeo de aperitivo foi encontrado</li>
+                        {% endfor %}
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </section>
+{% endblock %}
