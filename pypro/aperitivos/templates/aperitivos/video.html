@@ -6,8 +6,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 mx-auto">
-                    <h2>Motivação</h2>
-                    <iframe src="https://player.vimeo.com/video/425991579" width="640" height="800" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+                    <h1>{{ video.titulo | default:"Vídeo sem título" }}</h1>
+                    <iframe src="https://player.vimeo.com/video/{{ video.vimeo_id }}" width="640" height="800" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
                 </div>
             </div>
         </div>
