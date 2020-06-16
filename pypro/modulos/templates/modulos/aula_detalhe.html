@@ -1,0 +1,18 @@
+{% extends 'base/base.html' %}
+{% load static %}
+{% block description %}Página com vídeo gratuíto de Python{% endblock %}
+{% block title %}PythonPro - {{ video.titulo }}{% endblock %}
+{% block body %}
+
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <h1>{{ aula.titulo | default:"Vídeo sem título" }}</h1>
+                    <iframe src="https://player.vimeo.com/video/{{ aula.vimeo_id }}" width="640" height="800"
+                            frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+{% endblock %}
