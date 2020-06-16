@@ -11,4 +11,5 @@ def detalhe(request, slug):
 
 
 def aula(request, slug):
-    pass
+    aula = facade.econtrar_aula(slug)
+    return render(request, 'modulos/aula_detalhe.html', {'aula': aula})
