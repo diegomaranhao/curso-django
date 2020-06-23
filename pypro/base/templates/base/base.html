@@ -49,6 +49,7 @@
                     </div>
                 </li>
             </ul>
+
             {% if user.is_authenticated %}
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item dropdown">
@@ -62,10 +63,6 @@
                         </div>
                     </li>
                 </ul>
-            {% else %}
-                <a class="btn btn-light" href="{% url 'login' %}">Entrar</a>
-            {% endif %}
-
         </div>
     </div>
 </nav>

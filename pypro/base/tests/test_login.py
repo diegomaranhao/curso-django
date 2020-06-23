@@ -2,7 +2,9 @@ import pytest
 from django.urls import reverse
 from model_mommy import mommy
 
+
 from pypro.django_assertions import assert_contains, assert_not_contains
+
 
 
 @pytest.fixture
@@ -66,3 +68,4 @@ def test_botao_sair_disponivel(resp_home_com_usuario_logado):
 
 def test_nome_usuario_disponivel(resp_home_com_usuario_logado, usuario_logado):
     assert_contains(resp_home_com_usuario_logado, usuario_logado.first_name)
+
