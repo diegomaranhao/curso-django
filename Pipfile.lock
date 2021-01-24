@@ -217,10 +217,10 @@
         },
         "prompt-toolkit": {
             "hashes": [
-                "sha256:563d1a4140b63ff9dd587bda9557cffb2fe73650205ab6f4383092fb882e7dc8",
-                "sha256:df7e9e63aea609b1da3a65641ceaf5bc7d05e0a04de5bd45d05dbeffbabf9e04"
+                "sha256:7e966747c18ececaec785699626b771c1ba8344c8d31759a1915d6b12fad6525",
+                "sha256:c96b30925025a7635471dc083ffb6af0cc67482a00611bd81aeaeeeb7e5a5e12"
             ],
-            "version": "==3.0.5"
+            "version": "==3.0.14"
         },
         "psycopg2-binary": {
             "hashes": [
