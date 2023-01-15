@@ -375,11 +375,8 @@
             "version": "==1.25.9"
         },
         "wcwidth": {
-            "hashes": [
-                "sha256:79375666b9954d4a1a10739315816324c3e73110af9d0e102d906fdb0aec009f",
-                "sha256:8c6b5b6ee1360b842645f336d9e5d68c55817c26d3050f46b235ef2bc650e48f"
-            ],
-            "version": "==0.2.4"
+            "hashes": [],
+            "version": "==0.2.6"
         }
     },
     "develop": {
@@ -594,11 +591,8 @@
             "version": "==1.25.9"
         },
         "wcwidth": {
-            "hashes": [
-                "sha256:79375666b9954d4a1a10739315816324c3e73110af9d0e102d906fdb0aec009f",
-                "sha256:8c6b5b6ee1360b842645f336d9e5d68c55817c26d3050f46b235ef2bc650e48f"
-            ],
-            "version": "==0.2.4"
+            "hashes": [],
+            "version": "==0.2.6"
         }
     }
 }
